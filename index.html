@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="icon" href="download (1).png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+body {
+    background-image: url(world_map.jpg);
+    background-size: cover;
+}
+
+
+nav {
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+  width: 50vw;
+  min-width: 320px;
+  height: 200px;
+}
+
+nav h2 {
+  border-radius: 2px;
+  position: relative;
+  background: tomato;
+  height: 40px;
+  text-transform: uppercase;
+  color: ivory;
+  font-weight: 200;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 20px -2px rgba(0,0,0,.35);
+  transition: all .4s;
+}
+
+nav:hover h2{
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
+ }
+nav:hover:active h2{
+  transform: translateY(10px);
+  box-shadow: 0px -1px 2px 0px rgba(0,0,0,.35);
+ }
+
+input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+  height: 40px;
+}
+
+#toggle:checked ~ul {
+  height: 0%;
+}
+
+nav ul {
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: 0;
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  margin-bottom: 22px;
+  text-align: center;
+  transition: all .4s ease-out;
+  height: 100%;
+  overflow-y: scroll;
+}
+nav ul li {
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  margin-left: 35px;
+  line-height: 1.5;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 5px;
+  background: tomato;
+  transition: background 3s;
+  box-shadow: 2px 2px 10px -2px rgba(0,0,0,.35);
+}
+
+nav ul li:hover {
+  background: rgb(7, 69, 163);
+  transition: background .45s;
+}
+
+nav ul a {
+  display: block;
+  color: ivory;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: color .3s;
+}
+.b1{
+  color: rgb(0, 0, 0);
+  background-image:linear-gradient(90deg,red, blue);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto .1rem;
+  transition: ease-in-out,3s;
+}
+.b1:hover {
+  color: rgb(255, 255, 255);
+  background-size: auto 100%;
+}
+.p1{
+    float: left;
+    transition: width 2s,height 2s, transform 2s;
+    margin: 50px;
+}
+p{
+    color: rgb(228, 0, 0);
+    font-size: 50;
+    font-family: 'Ephesis', cursive;
+}
+p:hover {
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    
+}
+.p10 {
+  margin-top: 100px;
+}
+.p1:hover {
+  transform: rotate(180deg);
+  width: 100px;
+  height: 100px;
+}
+
+    
+
+#ehab{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+</head>
+<body>
+<img src="world_map.jpg" width="50" height="50">
+<center>
+<h1 class="b1">i am younes i will talk about the 7 continents of the world</h1>
+<div class="younes">
+  <h3 id="ehab">Asia</h3>
+</div>
+
+</center> 
+    <nav>
+        <h2>Drop Down Menu</h2>
+         <input id="toggle" type="checkbox" checked>
+      <ul>
+        <li><a href="index.html" target="_blank">Home</a></li>
+        <li><a href="p6.html" target="_blank">Asia</a></li>
+        <li><a href="p7.html" target="_blank">Europe</a></li>
+        <li><a href="p8.html" target="_blank">Africa</a></li>
+        <li><a href="p9.html" target="_blank">Oceania</a></li>
+        <li><a href="p10.html" target="_blank">South America</a></li>
+        <li><a href="p11.html" target="_blank">North America</a></li>
+        <li><a href="p12.html" target="_blank">Antarctica</a></li>
+      </ul>
+   </nav>
+<center>
+  <iframe class="p10" width="560" height="315" src="https://www.youtube.com/embed/wYYakyS_HOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<img class="p1" src="download (1).png" width="200" height="200">
+<p>what is a continent.A continent is one of several large landmasses. Generally identified by convention rather than any strict criteria, up to seven regions are commonly regarded as continents. Ordered from largest in area to smallest, these seven regions are: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.[1] Variations with fewer continents may merge some of these, for example some systems include Eurasia or America as single continents.
+
+    Geologically, the continents correspond to areas of continental crust that are found on the continental plates, but include continental fragments such as Madagascar that are not commonly referred to as continents while others are largely covered with water, such as Zealandia. Continental crust is only known to exist on Earth.[2]
+    
+    Oceanic islands are frequently grouped with a neighbouring continent to divide all the world's land into regions. Under this scheme, most of the island countries and territories in the Pacific Ocean are grouped together with the continent of Australia to form a region called Oceania.</p>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      (function younes(){
+          var list=['','Europe','Africa','Oceania','South America','North America','Antarctica'],i=0;
+  
+          setInterval(function younes(){
+                  $('#ehab').fadeOut(function younes(){
+                      $(this).html(list[i=(i+1)%list.length]).fadeIn();
+                  });
+  
+          },2000);
+      
+      })();
+  
+      
+      
+  </script>
+</body>
+</html>
